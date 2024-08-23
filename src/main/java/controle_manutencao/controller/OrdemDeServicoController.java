@@ -25,7 +25,7 @@ public class OrdemDeServicoController {
 
     @GetMapping("/pendentes")
     public List<OrdemDeServico> listarOrdensPendentes() {
-        return ordemDeServicoService.listarOrdemDeServicosPendentes()
+        return ordemDeServicoService.listarOrdemDeServicosPendentes();
     }
 
     @PutMapping("/{id}/iniciar")
